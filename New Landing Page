@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatives Art Printing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #fdfdfd; 
+            /* You can add your background pattern here */
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 380px;
+            padding: 30px 20px;
+            border-radius: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        .logo {
+            width: 70%;
+            margin-bottom: 15px;
+        }
+
+        .tagline {
+            color: #555;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 22px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:active {
+            transform: scale(0.96);
+        }
+
+        /* Your Custom Color Palette */
+        .btn-call { background-color: #1B74E4; } /* Blue */
+        .btn-whatsapp { background-color: #25D366; } /* Green */
+        .btn-email { background-color: #FBBC05; color: #333 !important; } /* Yellow with dark text */
+        .btn-insta { background-color: #C13584; } /* Pink/Magenta */
+        .btn-location { background-color: #E53935; } /* Red */
+
+        .btn i {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="your-logo-file.png" alt="Creatives Art Printing" class="logo">
+
+        <p class="tagline">"Quality Printing, Creative Solutions."</p>
+
+        <div class="button-container">
+            <a href="tel:+96899466091" class="btn btn-call">
+                <span>Call</span>
+                <i class="fas fa-phone"></i>
+            </a>
+
+            <a href="https://wa.me/96899466091" class="btn btn-whatsapp">
+                <span>Whatsapp</span>
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a href="mailto:creativesartprinting@gmail.com" class="btn btn-email">
+                <span>E-mail</span>
+                <i class="far fa-envelope"></i>
+            </a>
+
+            <a href="https://www.instagram.com/creativesartprinting" class="btn btn-insta">
+                <span>Instagram</span>
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#" class="btn btn-location">
+                <span>Location</span>
+                <i class="fas fa-map-marker-alt"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
